@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #67b8b8;
+    color: #333;
+}
+
+header {
+    background-color: #0e8fda;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+#portfolio .projetos {
+    margin-top: 20px;
+}
+
+.projetos a {
+    padding: 5px;
+    background-color: #2e88c4;
+    border: 2px solid rgb(241, 239, 239);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.projetos a:hover {
+    border: 1px solid black;
+    background-color: #106197;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #0e8fda;
+    color: #fff;
+}
+
+a.github {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    font-size: 70%;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+a.github:hover {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+/* responsividade do meu site   */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .projetos a {
+        font-size: 0.9em;
+    }
+
+    .projetos p {
+        font-size: 0.8em;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    .projetos a {
+        font-size: 0.8em;
+    }
+
+    .projetos p {
+        font-size: 0.7em;
+    }
+
+    form {
+        padding: 10px;
+    }
+}
